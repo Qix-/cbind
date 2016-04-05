@@ -6,9 +6,6 @@ section .text
 
 global _cbind_functor
 _cbind_functor:
-;	push rbp
-;	mov rbp, rsp
-
 	mov R9, R8
 	mov R8, RCX
 	mov RCX, RDX
